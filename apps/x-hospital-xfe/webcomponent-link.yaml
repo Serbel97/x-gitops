@@ -11,8 +11,7 @@ spec:
     - name: short-headline
       value: Hospital administration x
     - name: supporting-text
-      value: |
-        Spravuje administrativu v ambulancii
+      value: Manages administration in hospital
     - name: material-icon
       value: home_health
     - name: href # presmerovanie po kliknutí na element polyfea-md-app
