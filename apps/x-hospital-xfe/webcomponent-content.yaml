@@ -4,15 +4,15 @@ metadata:
   name: x-hospital-xfe-content
 spec:
   microFrontend: x-hospital-xfe
-  element: x-hospital-wl-list
+  element: x-hospital-list
   attributes:
     - name: base-path
-      value: /x-emplyee-wl/
+      value: /x-hospital/
     - name: api-base
       value: http://localhost:30081/api
     - name: hospital-id
-      value: bobulova
+      value: hospital-ba
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?x-hospital-wl(/.*)?$"
+      - path: "^(\\.?/)?x-hospital(/.*)?$"

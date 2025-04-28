@@ -6,7 +6,7 @@ namespace: wac-hospital
 labels:
   - pairs:
       app.kubernetes.io/part-of: wac-hospital
-      app.kubernetes.io/name: x-hospital-wl
+      app.kubernetes.io/name: x-hospital
     includeSelectors: true
     includeTemplates: true
 
