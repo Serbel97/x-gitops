@@ -7,7 +7,7 @@ spec:
   element: x-hospital-wl-list
   attributes:
     - name: base-path
-      value: /x-hospital-wl/
+      value: /x-emplyee-wl/
     - name: api-base
       value: http://localhost:30081/api
     - name: hospital-id

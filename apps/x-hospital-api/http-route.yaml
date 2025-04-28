@@ -27,16 +27,16 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /xbelake-openapi-ui
+            value: /x-openapi-ui
       backendRefs:
         - group: ""
           kind: Service
-          name: xbelake-openapi-ui
+          name: x-openapi-ui
           port: 80
     - matches:
         - path:
             type: Exact
-            value: /xbelake-openapi
+            value: /x-openapi
       filters:
         - type: URLRewrite
           urlRewrite:
@@ -46,5 +46,5 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: xbelake-ambulance-webapi
+          name: x-Hospital-api
           port: 80
