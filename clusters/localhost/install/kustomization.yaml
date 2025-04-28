@@ -9,6 +9,11 @@ labels:
 
 resources:
   - ../../../apps/x-ambulance-xfe
+  - ../../../apps/x-hospital-api
+
+patches:
+  - path: patches/hospital-api.service.yaml
 
 components:
   - ../../../components/version-developers
+  - https://github.com/serbel97/ambulance-api//deployments/kustomize/components/mongodb

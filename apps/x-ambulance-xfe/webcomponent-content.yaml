@@ -9,8 +9,8 @@ spec:
     - name: base-path
       value: /x-ambulance-wl/
     - name: api-base
-      value: http://localhost:5002/api
-    - name: ambulance-id
+      value: http://localhost:30081/api
+    - name: hospital-id
       value: bobulova
   displayRules:
     - allOf:

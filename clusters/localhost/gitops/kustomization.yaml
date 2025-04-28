@@ -15,3 +15,5 @@ resources:
 - ambulance-xfe.image-repository.yaml
 - ambulance-xfe.image-policy.yaml
 - image-update-automation.yaml
+- hospital-api.image-repository.yaml
+- hospital-api.image-policy.yaml
