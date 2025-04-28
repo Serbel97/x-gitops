@@ -1,13 +1,13 @@
 apiVersion: polyfea.github.io/v1alpha1
 kind: WebComponent
 metadata:
-  name: x-ambulance-xfe-content
+  name: x-hospital-xfe-content
 spec:
-  microFrontend: x-ambulance-xfe
-  element: x-ambulance-wl-list
+  microFrontend: x-hospital-xfe
+  element: x-hospital-wl-list
   attributes:
     - name: base-path
-      value: /x-ambulance-wl/
+      value: /x-hospital-wl/
     - name: api-base
       value: http://localhost:30081/api
     - name: hospital-id
@@ -15,4 +15,4 @@ spec:
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?x-ambulance-wl(/.*)?$"
+      - path: "^(\\.?/)?x-hospital-wl(/.*)?$"

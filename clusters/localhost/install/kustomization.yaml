@@ -8,7 +8,7 @@ labels:
       app.kubernetes.io/part-of: wac-hospital
 
 resources:
-  - ../../../apps/x-ambulance-xfe
+  - ../../../apps/x-hospital-xfe
   - ../../../apps/x-hospital-api
 
 patches:

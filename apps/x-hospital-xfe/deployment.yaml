@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: x-ambulance-xfe-deployment      # meno deployment-u od ktorého sa odvádza meno podu
+  name: x-hospital-xfe-deployment      # meno deployment-u od ktorého sa odvádza meno podu
 spec:
   replicas: 2
   selector:
     matchLabels:
-        pod: x-ambulance-xfe-label    # tento riadok je len označenie štítku
+        pod: x-hospital-xfe-label    # tento riadok je len označenie štítku
                                     # key-value pair pod=ambualnce xfe
                                     # určený pre výber podov s rovnakým štítkom
   template:                    # šablóna pre vytvorenie replík podov
     metadata:
       labels:
-        pod: x-ambulance-xfe-label    # štítky podu
+        pod: x-hospital-xfe-label    # štítky podu
     spec:
       containers:
-      - name: ambulance-xfe-container # meno kontaineru - v pod-e ich môže byť viac
+      - name: hospital-xfe-container # meno kontaineru - v pod-e ich môže byť viac
         image: sempresionus/ambulance-xfe
         imagePullPolicy: Always
 
