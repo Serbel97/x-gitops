@@ -7,7 +7,7 @@ spec:
   element: x-hospital-list
   attributes:
     - name: base-path
-      value: /fea/x-hospital/
+      value: /x-hospital/
     - name: api-base
       value: /x-api
     - name: hospital-id
