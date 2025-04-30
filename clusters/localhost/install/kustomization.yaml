@@ -10,6 +10,7 @@ labels:
 resources:
   - ../../../apps/x-hospital-xfe
   - ../../../apps/x-hospital-api
+  - ../../../apps/mongo-express
 
 patches:
   - path: patches/hospital-api.service.yaml
