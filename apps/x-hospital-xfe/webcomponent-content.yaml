@@ -7,7 +7,7 @@ spec:
   element: x-hospital-list
   attributes:
     - name: base-path
-      value: /x-hospital/
+      value: /fea/x-hospital/
     - name: api-base
       value: /x-api
     - name: hospital-id
@@ -15,4 +15,4 @@ spec:
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?x-hospital(/.*)?$"
+      - path: "^(\\.?/)?(fea/)?x-hospital(/.*)?$"
