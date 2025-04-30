@@ -15,4 +15,4 @@ spec:
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?()?x-hospital(/.*)?$"
+      - path: "^(\\.?/)?x-hospital(/.*)?$"
