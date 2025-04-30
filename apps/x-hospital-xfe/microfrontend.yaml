@@ -6,5 +6,3 @@ spec:
   frontendClass: md-shell # default obsiahnutý v základe polyfea md-shell
   service: http://x-hospital-xfe.wac-hospital # referencia na službu odkiaľ sa má načítať modul
   modulePath: build/ambulance-xfe.esm.js # cesta v rámci služby kde sa modul nachádza
-  moduleOptions:
-    resourcesUrl: /fea/polyfea/proxy/wac-hospital/x-hospital-xfe/build/
