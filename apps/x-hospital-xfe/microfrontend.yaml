@@ -4,5 +4,5 @@ metadata:
   name: x-hospital-xfe
 spec:
   frontendClass: md-shell # default obsiahnutý v základe polyfea md-shell
-  service: http://x-ambulance-xfe.wac-hospital # referencia na službu odkiaľ sa má načítať modul
+  service: http://x-hospital-xfe.wac-hospital # referencia na službu odkiaľ sa má načítať modul
   modulePath: build/ambulance-xfe.esm.js # cesta v rámci služby kde sa modul nachádza
