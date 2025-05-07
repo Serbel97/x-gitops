@@ -4,7 +4,7 @@ metadata:
   name: x-hospital-xfe-content
 spec:
   microFrontend: x-hospital-xfe
-  element: x-hospital-list
+  element: x-hospital-app
   attributes:
     - name: base-path
       value: /x-hospital/
