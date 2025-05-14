@@ -6,4 +6,4 @@ images:
     newTag: main # {"$imagepolicy": "wac-hospital:ambulance-xfe:tag"}
   - name: sempresionus/hospital-wl-api
     newName: sempresionus/hospital-wl-api # {"$imagepolicy":  "wac-hospital:ambulance-xfe:name"}
-    newTag: main
+    newTag: main.20250514.2016
