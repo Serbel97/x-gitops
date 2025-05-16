@@ -12,7 +12,7 @@ labels:
 
 resources:
   - ../../../apps/x-hospital-xfe
-
+  - ../../../apps/x-hospital-api
 
 components:
   - ../../../components/version-release
