@@ -3,7 +3,7 @@ kind: Component
 images:
   - name: sempresionus/ambulance-xfe
     newName: sempresionus/ambulance-xfe
-    newTag: mercury
+    newTag: venus
   - name: sempresionus/hospital-wl-api
     newName: sempresionus/hospital-wl-api
-    newTag: mercury
+    newTag: venus
