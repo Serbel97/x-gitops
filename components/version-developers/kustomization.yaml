@@ -3,7 +3,7 @@ kind: Component
 images:
   - name: sempresionus/ambulance-xfe
     newName: sempresionus/ambulance-xfe # {"$imagepolicy":  "wac-hospital:ambulance-xfe:name"}
-    newTag: main.20250516.2302 # {"$imagepolicy": "wac-hospital:ambulance-xfe:tag"}
+    newTag: main.20250517.1341 # {"$imagepolicy": "wac-hospital:ambulance-xfe:tag"}
   - name: sempresionus/hospital-wl-api
     newName: sempresionus/hospital-wl-api # {"$imagepolicy":  "wac-hospital:hospital-api:name"}
     newTag: main.20250516.2303 # {"$imagepolicy": "wac-hospital:hospital-api:tag"}
