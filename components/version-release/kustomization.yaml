@@ -3,7 +3,7 @@ kind: Component
 images:
   - name: sempresionus/ambulance-xfe
     newName: sempresionus/ambulance-xfe
-    newTag: venus
+    newTag: earth
   - name: sempresionus/hospital-wl-api
     newName: sempresionus/hospital-wl-api
-    newTag: venus
+    newTag: earth
